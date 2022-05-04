@@ -1,0 +1,18 @@
+.who-we-are {
+	padding: 100px 87px 0px 87px;
+	max-width: 1020px;
+	background: url('../img/who-we-are/geats-bcg.png') right top no-repeat, #fff;
+}
+.who-we-are__title-form{
+	margin-bottom: 36px;
+}
+
+.who-we-are__text:not(:last-child) {
+	margin-bottom: 54px;
+}
+.who-we-are__image-body {
+	max-width: 846px;
+	max-height: 563px;
+	margin-bottom: -120px;
+	display: inline-block;
+}

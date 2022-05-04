@@ -1,0 +1,88 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import "title-form.css";
+@import "who-we-are.css";
+@import "our-promise.css";
+@import "our-impact.css";
+@import "button.css";
+.lesson{
+	padding: 50px;
+}
+.lesson__one{
+	margin-bottom: 50px;
+}
+.one {
+	max-width: 500px;
+	padding: 50px;
+	background-color: rgb(173, 192, 209);
+}
+.one__title {
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.one__mini-title {
+	font-style: italic;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.one__text {
+	text-align: justify;
+	font-size: 18px;
+}
+.lesson__two{
+	margin: 0px auto 50px;
+}
+.two {
+	max-width: 600px;
+	padding: 50px;
+	background-color: rgb(221, 191, 157);
+}
+.two__title {
+	font-size: 45px;
+	font-weight: 900;
+	color: rgb(136, 149, 184);
+	margin-bottom: 20px;
+}
+.two__mini-title {
+	font-size: 30px;
+	color: #fff;
+}
+.two__mini-title_gray{
+	color: gray;
+}
+.two__text {
+	font-style: italic;
+}
+.two__text:not(:last-child){
+	margin-bottom: 20px;
+}
+.end{
+	text-align: center;
+	font-size: 30px;
+}
+/* !_________________________GENERAL STYLES for homework____________________________ */
+.homework {
+	padding: 50px 0px;
+	background-color: #F5F5F5;
+	color: #4B4B4B;
+}
+.homework__who-we-are{
+	margin: 0px auto 233px;
+}
+.text{
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	font-size: 16px;
+}
+.image {
+	width: 100%;
+	height: 100%;
+}
+.homework__our-promise{
+	margin: 0px auto 210px;
+}
+.homework__our-impact{
+	margin-bottom: 200px;
+}

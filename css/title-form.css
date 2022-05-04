@@ -1,0 +1,26 @@
+.title-form {
+	max-width: 583px;
+	display: inline-block;
+}
+.title-form__sud-title {
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+}
+.title-form__sud-title::before{
+	content: "";
+	background: url('../img/mark.svg') 0px -3px no-repeat;
+	display: inline-block;
+	height: 24px;
+	width: 17px;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+.title-form__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+}

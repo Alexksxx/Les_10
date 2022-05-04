@@ -1,0 +1,14 @@
+.button {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 48px;
+	background: url('../img/our-impact/arrow.svg') 185px center no-repeat, url('../img/our-impact/button-part.png') right center no-repeat, #C40B0B;
+	color: #fff;
+	width: 211px;
+	padding-left: 20px;
+}
+.button:hover{
+	box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.5);
+}

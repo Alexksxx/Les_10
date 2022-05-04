@@ -1,0 +1,35 @@
+.our-promise {
+	max-width: 1020px;
+}
+.our-promise__title-form{
+	margin-bottom: 68px;
+}
+.our-promise__items{
+	font-size: 0px;
+}
+.our-promise__items,
+.our-promise__item {
+	display: inline-block;
+}
+.our-promise__item:not(:last-child){
+	margin-right: 24px;
+}
+.our-promise__icon-body {
+	max-width: 63px;
+	max-height: 63px;
+	display: inline-block;
+	margin-right: 23px;
+}
+.our-promise__column {
+	display: inline-block;
+	max-width: 235px;
+	vertical-align: top;
+}
+.our-promise__sub-title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #02133C;
+	margin-bottom: 20px;
+}
+
